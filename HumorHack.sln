@@ -4,10 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumorHack.WebUI", "HumorHack.WebUI\HumorHack.WebUI.csproj", "{FFB02BAC-5028-4618-81CF-FA6693E919AE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CAC03925-F06F-44E9-8455-3302F6A8359A} = {CAC03925-F06F-44E9-8455-3302F6A8359A}
+	EndProjectSection
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HumorHack.Domain", "HumorHack.Domain\HumorHack.Domain.vbproj", "{D84B77B1-F2C1-4770-8FA6-996E2CD6BD9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumorHack.Domain", "HumorHack.Domain\HumorHack.Domain.csproj", "{CAC03925-F06F-44E9-8455-3302F6A8359A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumorHack.UnitTests", "HumorHack.UnitTests\HumorHack.UnitTests.csproj", "{9526B83A-7370-4F20-8F27-6E1A1D00ABC7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumorHack.UnitTest", "HumorHack.UnitTest\HumorHack.UnitTest.csproj", "{D69878BD-73E3-432B-8FFD-1D0E32692FA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +22,14 @@ Global
 		{FFB02BAC-5028-4618-81CF-FA6693E919AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFB02BAC-5028-4618-81CF-FA6693E919AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFB02BAC-5028-4618-81CF-FA6693E919AE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D84B77B1-F2C1-4770-8FA6-996E2CD6BD9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D84B77B1-F2C1-4770-8FA6-996E2CD6BD9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D84B77B1-F2C1-4770-8FA6-996E2CD6BD9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D84B77B1-F2C1-4770-8FA6-996E2CD6BD9F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9526B83A-7370-4F20-8F27-6E1A1D00ABC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9526B83A-7370-4F20-8F27-6E1A1D00ABC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9526B83A-7370-4F20-8F27-6E1A1D00ABC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9526B83A-7370-4F20-8F27-6E1A1D00ABC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC03925-F06F-44E9-8455-3302F6A8359A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC03925-F06F-44E9-8455-3302F6A8359A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC03925-F06F-44E9-8455-3302F6A8359A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC03925-F06F-44E9-8455-3302F6A8359A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D69878BD-73E3-432B-8FFD-1D0E32692FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D69878BD-73E3-432B-8FFD-1D0E32692FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D69878BD-73E3-432B-8FFD-1D0E32692FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D69878BD-73E3-432B-8FFD-1D0E32692FA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
