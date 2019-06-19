@@ -2,7 +2,7 @@
 Humor Hack is a website that includes humor and coding merchandise
 
 
-NuGit packages installed structureMap.MVC5 and MOQ
+NuGit packages installed structureMap.MVC5,bootstrap, and MOQ
 
 This project contains a class library (HumorHack.Domain), a MVC (HumorHack.WebUI), and a Unit Test(HumorHack.UnitTest) note only download 
 packages to HumorHack.WebUI. If packages are downloaded to the Library(HumorHack.Domain) or to the Unit test, everything will break horribly.
